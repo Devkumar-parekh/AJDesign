@@ -1,0 +1,1650 @@
+/*responsive menu css*/
+@media only screen and (min-width: 1600px) and (max-width: 1699px) {
+    body .fancybox__nav .carousel__button.is-prev {
+        left: 20.3%;
+    }
+
+    body .fancybox__nav .carousel__button.is-next {
+        right: 20.3%;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1499px) {
+    body .fancybox__nav .carousel__button.is-prev {
+        left: 20.18%;
+    }
+
+    body .fancybox__nav .carousel__button.is-next {
+        right: 20.18%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .my-slider.owl-carousel {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev {
+        left: -50px;
+    }
+
+    body .my-slider.owl-carousel .owl-nav button.owl-next {
+        right: -50px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+    .history-right.vc_col-sm-6 {
+        width: 53%;
+        margin-left: -55px;
+    }
+
+    body .fancybox__nav .carousel__button.is-prev {
+        left: 20.1%;
+    }
+
+    body .fancybox__nav .carousel__button.is-next {
+        right: 20.1%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .to-the-top {
+        right: 15px;
+    }
+
+    .main-title {
+        font-size: 35px;
+    }
+
+    body .experience-section .left-side .wpb_single_image .vc_single_image-wrapper {
+        width: 270px;
+        height: 50px;
+    }
+
+    .history-right.vc_col-sm-6 {
+        width: 49%;
+        margin-left: -60px;
+    }
+
+    .history-left.vc_col-sm-6 {
+        width: 55%;
+    }
+
+    .history-right .vc_column-inner,
+    .catering-left .vc_column-inner,
+    .events-left .vc_column-inner,
+    .specification-left .vc_column-inner,
+    .overnight-right .vc_column-inner,
+    .tours-right .vc_column-inner {
+        background: #01C6E9;
+        padding: 0 25px 0px 25px !important;
+        min-height: 380px;
+    }
+
+    section.banner-section p {
+        height: 491px;
+    }
+
+    .error-404.not-found {
+        padding: 140px 0;
+    }
+
+    /*-history-page--*/
+
+    .my-slider.owl-carousel {
+        padding-top: 25px;
+        margin-top: 35px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev {
+        left: -45px;
+        background-position: 0 -136px;
+    }
+
+    body .my-slider.owl-carousel .owl-nav button.owl-next {
+        background-position: -74px -135px;
+        right: -45px;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev,
+    .my-slider.owl-carousel .owl-nav button.owl-next {
+        background-size: 100px;
+        width: 30px !important;
+        height: 60px;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev:hover {
+        background-position: 0px -69px;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-next:hover {
+        background-position: -71px -70px;
+    }
+
+    /*-form-section-enqiry-page---*/
+    section.enquire-top-section .my-contact .location,
+    section.enquire-top-section .my-contact .email,
+    section.enquire-top-section .my-contact .phone {
+        margin: 0 18px;
+        width: 29%;
+    }
+    .recaptcha >span>span>div{
+        -webkit-transform: scale(0.85);
+        -moz-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        -o-transform: scale(0.85);
+        transform: scale(0.85);
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        transform-origin: 0 0;
+}
+section.form-section .button-captcha-wrap {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+section.form-section .button-wrap.contact-btn {
+    margin-top: 7px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.recaptcha.smart-capt span.wpcf7-not-valid-tip {
+    line-height: 60%;
+    padding: 0;
+}
+body:not(.home) .recaptcha.smart-capt {
+    float: left;
+    width: 259px;
+}
+body .inner-banner-section figure div {
+    height: 550px;
+}
+body.page-id-16 .inner-banner-section .wpb_single_image .vc_single_image-wrapper img {
+    object-position: center -140px;
+}
+
+
+}
+@media only screen and (max-width: 1024px) {
+
+    /*safari scroll issue do not remove below style*/
+    html::-webkit-scrollbar {
+        display: block;
+        position: absolute;
+        background: transparent;
+        width: 3px;
+        bottom: 0;
+        top: 0px;
+        right: 1px;
+        left: auto;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        position: absolute;
+        right: 1px;
+        left: auto;
+        background: #000;
+        border-radius: 5px;
+        opacity: 0.5;
+    }
+
+    /*safari scroll issue do not remove above style*/
+    header.site-header {
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: auto;
+        z-index: 99999;
+    }
+
+    .sticky_header header#masthead {
+        position: fixed;
+        margin: 0;
+        background: #000;
+        padding: 10px 0 10px;
+    }
+
+    body.sticky_header header.site-header {
+        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.5);
+    }
+
+
+    body p {
+
+        font-size: 16px;
+    }
+
+    .history-para-1 p {
+        font-size: 18px;
+    }
+
+    .specification-left p,
+    body .tours-right.vc_col-sm-6 p {
+        font-size: 20px;
+    }
+
+    span.pimage {
+        height: 200px;
+        width: auto;
+    }
+
+    .item .content {
+        font-size: 16px;
+        line-height: 160%;
+    }
+
+    .author-wrap {
+        font-size: 17px;
+    }
+
+    .my-slider.owl-carousel .item {
+        padding: 52px 20px 25px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .site-name a.custom-logo-link img,
+    .site-name a.custom-logo-link {
+        width: 100%;
+    }
+
+    .site-info>div:first-child {
+        padding-right: 30px;
+    }
+
+    .contact-detail {
+        width: 28.7%;
+        padding-right: 30px;
+    }
+
+    .contact_social {
+        padding-right: 25px;
+    }
+
+    .map {
+        width: 26%;
+    }
+
+    .site-info+div {
+        padding: 16px 15px 20px;
+
+    }
+
+    .history-right .vc_column-inner {
+        margin-left: 0;
+    }
+
+    body .fancybox__carousel .fancybox__content {
+        width: 85% !important;
+        height: 400px !important;
+    }
+
+    body .fancybox__nav .carousel__button.is-next {
+        right: 6.6%;
+        background-position: -106px 0;
+    }
+
+    body .fancybox__nav .carousel__button.is-prev {
+        left: 6.6%;
+    }
+.primary-navigation>div>.menu-wrapper .sub-menu-toggle:hover>span::before{
+    content: "\f107";
+}
+.fancybox-wrap.fancybox-desktop.fancybox-type-image.fancybox-opened {
+		width: 90%!important;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    section.banner-section:before,
+    section.inner-banner-section:before {
+        height: 108px;
+    }
+
+    html #page header .menu-button-container {
+        top: 1px;
+    }
+
+    body section,
+    section.experience-section,
+    section.enquire-section,
+    section.testimonial-section,
+    body .gallery,
+    body .events-section,
+    body .specification-section,
+    body .overnight-section,
+    body .tours-section,
+    section.our-history-section,
+    .tour-section-page,
+    section.gallery-page-section,
+    section.vc_section.table-section.specification-section.specification-section-page,
+    section.form-section,
+    section.vc_section.enquire-top-section {
+        padding: 55px 0;
+    }
+
+    header .site-logo {
+        max-width: 180px;
+    }
+
+    .top-header {
+        width: calc(100% - 175px);
+    }
+
+    /*-banner--*/
+    section.banner-section p {
+        height: 380px;
+    }
+
+    .main-title {
+        font-size: 25px;
+    }
+
+    body .events-section,
+    body .specification-section,
+    body .overnight-section{
+        padding: 55px 0 0;
+    }
+
+    /*----*/
+    body .experience-section .left-side .wpb_single_image .vc_single_image-wrapper {
+        width: 255px;
+        height: 49px;
+    }
+
+    .experience-section .caviar-img.vc_col-sm-6 {
+        width: 43.3%;
+    }
+
+    .experience-section .vc_col-sm-6 {
+        width: 55.7%;
+    }
+
+    .caviar-img>.vc_column-inner {
+        padding-right: 35px !important;
+    }
+
+    .caviar-img>.vc_column-inner::after {
+        right: 30px;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+
+    section.history-section h2.main-title,
+    section.enquire-top-section .main-title {
+        margin-bottom: 30px;
+    }
+
+    .history-right.vc_col-sm-6,
+    section.tours-section .school-exc-right {
+        width: 48.2%;
+        margin-left: -60px;
+    }
+
+    .history-left.vc_col-sm-6 {
+        width: 56.7%;
+    }
+
+    body .history-left .wpb_single_image .vc_single_image-wrapper,
+    body .charters-section .wpb_single_image .vc_single_image-wrapper,
+    body .events-section .wpb_single_image .vc_single_image-wrapper,
+    body .specification-right .wpb_single_image .vc_single_image-wrapper,
+    body .overnight-section .wpb_single_image .vc_single_image-wrapper,
+    body .tours-section .wpb_single_image .vc_single_image-wrapper,
+    section.tours-section .school-exc-left .wpb_single_image .vc_single_image-wrapper {
+        width: 100%;
+        height: 440px;
+    }
+
+    .catering-left.vc_col-sm-6,
+    .events-left.vc_col-sm-6,
+    .specification-left.vc_col-sm-6,
+    .overnight-right.vc_col-sm-6,
+    .tours-right.vc_col-sm-6 {
+        width: 40.76%;
+    }
+
+    .my-slider.owl-carousel {
+        padding-top: 25px;
+        margin-top: 35px;
+        max-width: 655px;
+        margin: 0 auto;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev {
+        left: -45px;
+        background-position: 0 -136px;
+    }
+
+    body .my-slider.owl-carousel .owl-nav button.owl-next {
+        background-position: -74px -135px;
+        right: -45px;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev,
+    .my-slider.owl-carousel .owl-nav button.owl-next {
+        background-size: 95px;
+        width: 25px !important;
+        height: 45px;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev:hover,
+    .my-slider.owl-carousel .owl-nav button.owl-next:hover {
+        background-size: 100px;
+    }
+
+    footer#colophon {
+        padding: 50px 0 0;
+    }
+
+    .site-info {
+        display: flex;
+    }
+
+    .contact_social {
+        display: none;
+    }
+
+    .map {
+        width: 32%;
+    }
+
+    .contact-detail {
+        width: 35%;
+    }
+
+    /*---*/
+
+    aside.custom-footer-menu h2.chw-title,
+    .contact-title,
+    .map-title {
+        font-size: 18px !important;
+        padding-bottom: 10px;
+        margin-bottom: 18px;
+    }
+
+    ul#menu-footer-menu li a,
+    footer#colophon div,
+    footer#colophon a {
+        font-size: 15px;
+    }
+
+    .phone a {
+        font-size: 16px !important;
+    }
+
+    .my_social {
+        margin-top: 28px;
+    }
+
+    li.instagram_url.follow-us a {
+        height: 38px;
+        line-height: 38px;
+        width: 38px;
+    }
+
+    li.instagram_url.follow-us a:before {
+        font-size: 16px !important;
+        line-height: 38px;
+    }
+
+    .site-info>div:first-child {
+        width: 32.7%;
+    }
+
+    .specification-left p,
+    body .tours-right.vc_col-sm-6 p {
+        font-size: 17px;
+    }
+
+    .common-btn a,
+    .common-btn .vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern,
+    body #content .load-more-wrap button#more_posts {
+        line-height: 38px;
+        padding: 0 30px 0 30px;
+        font-size: 16px;
+        height: 38px;
+        min-width: auto;
+    }
+
+    /*-error-page--*/
+    .error-404.not-found {
+        padding: 97px 0;
+    }
+
+    .error-404 h1.section-heading {
+        font-size: 50px;
+        margin: 0 0 20px 0;
+    }
+
+    body .custom-404-widget figure {
+        height: 290px;
+    }
+
+    .error-404.not-found .common-btn a {
+        min-width: auto;
+    }
+
+    /*-history-page-*/
+    .inner-banner-section figure div {
+        height: 360px;
+    }
+	body.page-id-16 .inner-banner-section .wpb_single_image .vc_single_image-wrapper img {
+		object-position: center -140px;
+	}
+    .our-history-section .our-history-right {
+        padding-left: 28px;
+        width: 52%;
+    }
+
+    .our-history-section .our-history-left {
+        width: 48%;
+    }
+
+    .our-history-section .our-history-left figure div {
+        height: 445px;
+    }
+
+    .our-history-right p {
+        margin-bottom: 10px !important;
+    }
+
+    section.our-history-section div .vc_row {
+        margin-top: 30px;
+    }
+
+    /*--tour-page--*/
+
+    section.tours-section .school-exc-left {
+        width: 60.7%;
+    }
+
+    .site-info .site-logo {
+        min-width: 209px;
+    }
+
+    .tour-section-page h2.main-title,
+    .gallery-title .main-title,
+    .specification-section-page .main-title {
+        margin-bottom: 25px;
+    }
+
+    /*-gallry-page--*/
+    .select-taxonomy {
+        line-height: 38px;
+        padding: 0px 20px;
+        font-size: 16px;
+        min-width: 114px;
+        margin: 0 8px;
+    }
+
+    .select-buttons>div,
+    section.enquire-top-section .main-title,
+    section.form-section .main-title {
+        margin-bottom: 24px;
+    }
+
+    /*-specification-page---*/
+    .table-section .vc_col-sm-6 {
+        padding: 14px 0 10px 18px;
+    }
+
+    .table-section .table-row p {
+        font-size: 16px;
+    }
+
+
+    /*-form-section-enqiry-page---*/
+    section.enquire-top-section .my-contact .location,
+    section.enquire-top-section .my-contact .email,
+    section.enquire-top-section .my-contact .phone {
+        margin: 0 10px;
+        width: 31.33%;
+        padding: 40px 15px 11px;
+    }
+
+    section.enquire-top-section .location:after,
+    section.enquire-top-section .phone:after,
+    section.enquire-top-section .email:after {
+        width: 64px;
+        height: 64px;
+        top: -36px;
+    }
+
+    section.enquire-top-section .location:before,
+    section.enquire-top-section .phone:before,
+    section.enquire-top-section .email:before {
+        width: 58px;
+        height: 58px;
+        background-size: 25px;
+        top: -33px;
+    }
+
+    section.enquire-top-section .location:before {
+        background-position: 16px -32px;
+    }
+
+    section.enquire-top-section .phone:before {
+        background-position: 16px 17px;
+    }
+
+    section.enquire-top-section .email:before {
+        background-position: 17px -78px;
+    }
+
+    section.enquire-top-section .my-contact .location div {
+        font-size: 14px;
+        max-width: 160px !important;
+    }
+
+    section.enquire-top-section .email a {
+        font-size: 14px;
+    }
+
+    section.enquire-top-section .my-contact>div div:first-child {
+        font-size: 17px !important;
+        padding-bottom: 8px;
+    }
+
+    section.form-section form.wpcf7-form {
+        padding-top: 15px;
+    }
+
+    body textarea {
+        height: 90px !important;
+    }
+
+    body section.form-section form.wpcf7-form input[type="submit"] {
+        padding: 0 25px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    body section.form-section span.wpcf7-form-control-wrap.recaptcha {
+        text-align: left;
+    }
+
+    body .fancybox__nav .carousel__button.is-next {
+        right: 6.4%;
+    }
+
+    body .fancybox__nav .carousel__button.is-prev {
+        left: 6.4%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+    body.lock-scrolling .site {
+        position: relative;
+    }
+
+    .top-btn {
+        height: 35px;
+        width: 35px;
+        right: 15px;
+        line-height: 34px;
+    }
+
+    .top-btn::before {
+        font-size: 25px;
+    }
+
+    /*-common--*/
+    .history-right .vc_column-inner {
+        padding: 21px 20px 20px 20px !important;
+        min-height: 290px;
+        max-width: 95%;
+        margin-left: auto!important;
+        margin-right: auto;
+   }
+    
+    .catering-left .vc_column-inner,
+    .events-left .vc_column-inner,
+    .specification-left .vc_column-inner,
+    .overnight-right .vc_column-inner,
+    .tours-right .vc_column-inner,
+    section.tours-section .school-exc-right .vc_column-inner {
+        padding: 30px 20px 30px 20px !important;
+        min-height: 287px;
+    }
+
+    section.enquire-top-section .my-contact {
+        padding-top: 30px;
+    }
+
+    section.form-section .form-right {
+        padding: 28px 20px;
+    }
+
+
+    /*---emqiry---*/
+
+    section.form-section .button-captcha-wrap {
+        display: block;
+    }
+
+    section.form-section .button-wrap.contact-btn {
+        margin: 15px 0 0;
+    }
+
+    #page header .primary-navigation .primary-menu-container {
+
+        width: 70%;
+    }
+
+    /* 22-03-2022 */
+    .fancybox-wrap.fancybox-desktop.fancybox-type-image.fancybox-opened {
+		max-height: 430px;
+		width: 85%!important;
+	}
+
+    .fancybox-skin .fancybox-close {
+    right: -10px;
+}
+
+    /* 22-03-2022 */
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    section.banner-section:before,
+    section.inner-banner-section:before {
+        height: 108px;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+
+    body section,
+    section.enquire-section,
+    section.testimonial-section,
+    section.our-history-section,
+    section.inner-banner-section+.tours-section,
+    section.gallery-page-section,
+    .tour-section-page,
+    section.vc_section.table-section.specification-section.specification-section-page,
+    section.form-section,
+    section.vc_section.enquire-top-section {
+        padding: 45px 0;
+    }
+
+    section.banner-section p {
+        height: 295px;
+    }
+
+    header .site-logo {
+        max-width: 145px;
+        padding: 5px 0 0 !important;
+    }
+
+    .sticky_header header .site-logo {
+        max-width: 130px;
+        padding: 2px 0 0 !important;
+    }
+
+    .sticky_header .top-header .common-btn a {
+        line-height: 26px;
+        height: 28px;
+        font-size: 13px;
+    }
+
+    html body.sticky_header #page header .menu-button-container {
+        top: 5px;
+    }
+
+    .common-btn a,
+    .common-btn .vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern,
+    body #content .load-more-wrap button#more_posts {
+        line-height: 34px;
+        padding: 0 18px 0 18px;
+        font-size: 15px;
+        height: 36px;
+        min-width: auto;
+    }
+
+    .top-header .common-btn a {
+        line-height: 30px;
+        padding: 0 14px 0 14px;
+        height: 32px;
+    }
+
+    html #page header .menu-button-container {
+        height: 17px;
+        width: 20px;
+        z-index: 99;
+        top: 8px;
+    }
+
+    html #page header .menu-button-container #primary-mobile-menu::before {
+        width: 20px;
+        height: 21px;
+        background-size: 20px;
+        background-position: 0 3px !important;
+    }
+
+    html #page header .menu-button-container #primary-mobile-menu:hover::before {
+        background-position: 0 -24px !important;
+    }
+
+    .top-header {
+        width: calc(100% - 0px);
+        padding-right: 32px;
+        height: auto;
+        line-height: 100%;
+    }
+
+    .main-title {
+        font-size: 28px;
+        line-height: 130%;
+    }
+
+    /*--section.experience-section---*/
+
+    section.experience-section {
+        padding: 45px 0 32px;
+    }
+
+    section.vc_section.experience-section>.vc_row {
+        flex-wrap: wrap;
+    }
+
+    .experience-section .vc_col-sm-6,
+    .experience-section .caviar-img.vc_col-sm-6 {
+        width: 100%;
+    }
+
+    .experience-section .caviar-img.vc_col-sm-6 {
+        display: none;
+    }
+
+    .experience-section .main-title {
+        margin-bottom: 8px;
+        text-align: center !important;
+    }
+
+    /*---section.experience-section---*/
+    /*--section.history-section---*/
+
+    section.history-section>div>div>div>div .vc_row,
+    .catering-row,
+    .events-row,
+    .specification-row,
+    .overnight-row,
+    .tours-row {
+        flex-wrap: wrap;
+    }
+
+    .history-left.vc_col-sm-6,
+    .history-right.vc_col-sm-6,
+    section.tours-section .school-exc-left {
+        width: 100%;
+    }
+
+    .history-right.vc_col-sm-6 {
+        padding: 0 15px;
+        margin-top: -62px;
+        margin-left: 0;
+    }
+
+    section.history-section h2.main-title,
+    .specification-section-page .main-title,
+    section.form-section .main-title {
+        margin-bottom: 20px;
+    }
+
+    body .history-left .wpb_single_image .vc_single_image-wrapper,
+    body .charters-section .wpb_single_image .vc_single_image-wrapper,
+    body .events-section .wpb_single_image .vc_single_image-wrapper,
+    body .specification-right .wpb_single_image .vc_single_image-wrapper,
+    body .overnight-section .wpb_single_image .vc_single_image-wrapper,
+    body .tours-section .wpb_single_image .vc_single_image-wrapper,
+    section.tours-section .school-exc-left .wpb_single_image .vc_single_image-wrapper {
+        height: 258px;
+    }
+
+    .history-para-1 p {
+        font-size: 16px;
+    }
+
+    .history-right .common-btn,
+    .catering-left .common-btn,
+    .events-left .common-btn,
+    .specification-left .common-btn,
+    .overnight-right .common-btn,
+    .tours-right .common-btn {
+        margin-top: 20px;
+    }
+
+    /*--section.history-section---*/
+    /*--section.charters-section---*/
+
+    section.charters-section {
+        padding: 38px 0 0;
+    }
+
+    body section.charters-section .main-title,
+    body section.gallery .main-title,
+    section.testimonial-section .main-title,
+    section.enquire-section .main-title,
+    section.inner-banner-section+.tours-section h2.main-title {
+        margin-bottom: 14px;
+    }
+
+    body .catering-row,
+    .events-row,
+    .specification-row {
+        flex-direction: column-reverse;
+    }
+
+    body .catering-row {
+        margin-top: 16px;
+    }
+
+    .catering-left.vc_col-sm-6,
+    .events-left.vc_col-sm-6,
+    .specification-left.vc_col-sm-6,
+    .overnight-right.vc_col-sm-6,
+    .tours-right.vc_col-sm-6,
+    .catering-right.vc_col-sm-6,
+    .event-right.vc_col-sm-6,
+    .specification-right.vc_col-sm-6,
+    .overnight-left.vc_col-sm-6,
+    .tours-left.vc_col-sm-6,
+    section.tours-section .school-exc-right {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .catering-left.vc_col-sm-6,
+    .events-left.vc_col-sm-6,
+    .specification-left.vc_col-sm-6,
+    .overnight-right.vc_col-sm-6,
+    .tours-right.vc_col-sm-6,
+    section.tours-section .school-exc-right {
+        padding: 0 20px;
+        margin-top: -62px;
+    }
+
+    body .events-section,
+    body .specification-section,
+    body .overnight-section,
+    body.home .tours-section {
+        padding: 20px 0 0;
+    }
+
+    /*--section.charters-section---*/
+    /*--section.specification-section---*/
+
+    .specification-left p,
+    body .tours-right.vc_col-sm-6 p {
+        font-size: 14px;
+    }
+
+    .catering-left .main-title,
+    .events-left .main-title,
+    .specification-left .main-title,
+    .overnight-right .main-title,
+    .tours-right .main-title {
+        margin-bottom: 14px;
+        font-size: 26px;
+    }
+
+    /*--section.specification-section---*/
+
+    /*--section.gallery-section---*/
+    body .gallery,
+    section.testimonial-section {
+        padding: 38px 0 0;
+    }
+
+    .gallery-row p {
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    div#home-gallery {
+        margin-top: 14px;
+    }
+
+    ul.post-list li,
+    ul.post-list li:nth-child(3n) {
+        width: 48%;
+        padding: 0;
+        margin-right: 3.9%;
+        margin-bottom: 15px;
+    }
+
+    ul.post-list li:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    span.pimage {
+        height: 121px;
+    }
+
+    .gallery .common-btn {
+        margin-top: 38px;
+    }
+
+    .my-slider.owl-carousel {
+        padding-top: 21px;
+        margin-top: 21px;
+    }
+
+    .my-slider.owl-carousel .item::after {
+        height: 48px;
+        width: 48px;
+        top: -25px;
+        background-position: 13px 13px;
+        background-size: 80px;
+    }
+
+    .my-slider.owl-carousel .item {
+        padding: 39px 19px 24px;
+    }
+
+    .item .content {
+        font-size: 15px;
+        line-height: 180%;
+    }
+
+    .author-wrap {
+        font-size: 15px;
+        line-height: 120%;
+    }
+
+    .my-slider.owl-carousel .owl-nav {
+        position: static;
+        width: auto;
+        transform: none;
+        display: table;
+        margin: 25px auto 0;
+        height: auto;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+        margin-right: 10px;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev:hover {
+        background-position: 0px -50px;
+    }
+
+    body .my-slider.owl-carousel .owl-nav button.owl-next {
+        background-position: -51px -97px;
+        right: 0;
+        margin-left: 10px;
+    }
+
+    body .my-slider.owl-carousel .owl-nav button.owl-next:hover {
+        background-position: -51px -50px;
+    }
+
+    .my-slider.owl-carousel .owl-nav button.owl-prev,
+    .my-slider.owl-carousel .owl-nav button.owl-next {
+        width: 20px !important;
+        height: 40px;
+        background-position: 0 -97px;
+        background-size: 70px;
+    }
+
+    body .my-slider.owl-carousel .owl-dots {
+        display: none;
+    }
+
+    .charges-title p,
+    .gallery-row h2.main-title+div p {
+        font-size: 16px;
+    }
+
+    /*--section.gallery-section---*/
+    /*--section.Enquiry-section---*/
+
+    section.enquire-section {
+        background: #fff;
+    }
+
+    section.enquire-section .main-title+div>div>p {
+        font-size: 16px;
+    }
+
+    .enquire-row form.wpcf7-form {
+        margin-top: 20px;
+    }
+
+    section.enquire-section .full-wrap div {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px !important;
+    }
+
+    section.enquire-section .full-wrap {
+        flex-wrap: wrap;
+    }
+
+    body textarea {
+        height: 95px !important;
+    }
+
+    span.wpcf7-form-control-wrap.recaptcha {
+        margin-top: 15px;
+    }
+
+    .button-wrap.join-btn.get-btn.common-btn.contact-btn {
+        margin: 20px auto 0;
+    }
+
+    body .site .button,
+    body input[type="submit"],
+    body input[type="reset"],
+    body .wp-block-search__button,
+    body .wp-block-button .wp-block-button__link {
+        padding: 0 22px;
+        height: 36px;
+        font-size: 15px;
+    }
+
+    /*--footer-*/
+    footer#colophon {
+        padding: 50px 0 0;
+    }
+
+    .site-info>div:first-child,
+    .contact-detail,
+    .map {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .contact_social {
+        display: none;
+    }
+
+    body footer#colophon .site-logo {
+        margin: 0;
+        max-width: 170px;
+    }
+
+    .my_social {
+        margin-top: 20px;
+    }
+
+    li.instagram_url.follow-us {
+        text-align: left;
+    }
+
+    li.instagram_url.follow-us a {
+        height: 40px;
+        line-height: 40px !important;
+        width: 40px;
+    }
+
+    .contact-detail {
+        margin-top: 28px;
+    }
+
+    aside.custom-footer-menu h2.chw-title,
+    .contact-title,
+    .map-title {
+        font-size: 16px !important;
+        margin-bottom: 20px;
+    }
+
+    ul#menu-footer-menu li a,
+    footer#colophon div,
+    footer#colophon a {
+        font-size: 14px;
+    }
+
+    .location div:last-child,
+    .phone div:last-child,
+    .email div:last-child {
+        max-width: 100%;
+        line-height: 120%;
+    }
+
+    .phone a {
+        font-size: 16px !important;
+    }
+
+    .location div:first-child:before,
+    .phone div:first-child:before,
+    .email div:first-child:before {
+        font-size: 21px;
+        top: -2px;
+    }
+
+    .phone div:first-child:before {
+        font-size: 20px;
+    }
+
+    .location div:first-child,
+    .phone div:first-child,
+    .email div:first-child {
+        width: 15px;
+        height: 19px;
+        margin-right: 9px;
+    }
+
+    .email div:first-child:before {
+        font-size: 16px;
+    }
+
+    .map {
+        margin-top: 24px;
+    }
+
+    body .site-footer>.site-info {
+        padding: 0 15px 30px;
+    }
+
+    .site-info+div>div {
+        width: 100%;
+    }
+
+    .site-info+div {
+        padding: 14px 15px 15px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-2 ul#menu-footer-menu2 {
+        justify-content: center;
+    }
+
+    li.instagram_url.follow-us a:before {
+        font-size: 20px !important;
+        line-height: 40px;
+    }
+
+    aside.custom-map-menu figure {
+        max-width: 345px;
+    }
+
+    body input[type="text"],
+    body input[type="email"],
+    body input[type="url"],
+    body input[type="password"],
+    body input[type="search"],
+    body input[type="number"],
+    body input[type="tel"],
+    body input[type="range"],
+    body input[type="date"],
+    body input[type="month"],
+    body input[type="week"],
+    body input[type="time"],
+    body input[type="datetime"],
+    body input[type="datetime-local"],
+    body input[type="color"],
+    .site textarea,
+    .site select {
+        font-size: 14px;
+    }
+
+    header #site-navigation #primary-menu-list>li>a {
+        text-align: left;
+    }
+
+    .primary-navigation>div>.menu-wrapper .sub-menu-toggle {
+        display: block !important;
+    }
+
+    body.primary-navigation-open #page .menu-button-container #primary-mobile-menu::before {
+        height: 20px;
+        font-size: 21px;
+    }
+
+    #page header .primary-navigation .primary-menu-container {
+        width: 85%;
+    }
+
+    body .custom-404-widget figure {
+        height: 265px;
+        margin: 0;
+    }
+
+    .error-404 h1.section-heading {
+        font-size: 40px;
+        margin: 0 0 22px 0;
+    }
+
+    .error-404.not-found .page-content h2 {
+        font-size: 17px;
+    }
+
+    .error-404.not-found {
+        padding: 50px 0;
+    }
+
+    /*---history----*/
+
+    .inner-banner-section figure div {
+        height: 240px;
+    }
+
+    ul.breadcrumb li a,
+    ul.breadcrumb li span {
+        font-size: 15px;
+        line-height: 100%;
+    }
+
+    ul.breadcrumb li::before {
+        right: -17px;
+    }
+
+    ul.breadcrumb li {
+        margin-right: 30px;
+        font-size: 15px;
+    }
+
+    .breadcrumb-section-wrap {
+        padding: 12px 0 11px;
+    }
+
+    section.our-history-section div .vc_row {
+        margin-top: 25px;
+    }
+
+    .our-history-section .our-history-left {
+        width: 100%;
+        border: 2px solid #01C6E9;
+        padding: 8px;
+        margin-left: 0;
+        max-width: 345px;
+        margin: 0 auto 20px;
+    }
+
+    .our-history-section .our-history-right {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .our-history-section .our-history-left figure div {
+        max-width: 345px;
+        height: 430px;
+    }
+
+    body .site .common-btn button {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .wpcf7 form.invalid .wpcf7-response-output,
+    .wpcf7 form.unaccepted .wpcf7-response-output,
+    .wpcf7 form.sent .wpcf7-response-output,
+    .wpcf7-not-valid-tip {
+        font-size: 13px;
+    }
+
+    .site-info .site-logo {
+        min-width: 170px;
+    }
+
+    section.vc_section.tours-section .history-row .vc_row-fluid.container {
+        display: block;
+    }
+
+    /*---gallery-page---*/
+    section.inner-banner-section+section.tab-gallery-section {
+        padding: 50px 0 50px;
+    }
+
+    section.history-section h2.main-title,
+    .gallery-title .main-title,
+    .select-buttons>div,
+    section.enquire-top-section .main-title {
+        margin-bottom: 22px;
+    }
+
+    /* 22-03-2022 */
+    .select-taxonomy {
+        line-height: 38px;
+        padding: 0px 6px;
+        font-size: 15px;
+        min-width: 105px;
+        margin: 0 5px 10px !important;
+    }
+
+    /* 22-03-2022 */
+    .select-buttons>div>div>div {
+        flex-wrap: wrap;
+    }
+
+    /*-specification--*/
+
+    .table-section .table-row {
+        display: flex;
+        align-items: center;
+    }
+
+    .table-section .table-row p {
+        font-size: 16px;
+        color: #000;
+        line-height: 140%;
+    }
+
+    /*-enqiry-page--*/
+
+
+    section.enquire-top-section .my-contact {
+        display: block;
+    }
+
+    section.enquire-top-section .my-contact .location,
+    section.enquire-top-section .my-contact .email,
+    section.enquire-top-section .my-contact .phone {
+        width: 75%;
+        padding: 44px 38px 15px;
+    }
+
+    section.enquire-top-section .my-contact .location,
+    section.enquire-top-section .my-contact .phone {
+        margin: 0 auto 50px;
+    }
+
+    section.enquire-top-section .my-contact .email {
+        margin: 0 auto;
+    }
+
+    section.enquire-top-section .location:after,
+    section.enquire-top-section .phone:after,
+    section.enquire-top-section .email:after {
+        width: 55px;
+        height: 55px;
+        top: -27px;
+    }
+
+    section.enquire-top-section .location:before,
+    section.enquire-top-section .phone:before,
+    section.enquire-top-section .email:before {
+        width: 49px;
+        height: 49px;
+        background-size: 22px;
+        top: -24px;
+    }
+
+    section.enquire-top-section .location:before {
+        background-position: 13px -29px;
+    }
+
+    section.enquire-top-section .phone:before {
+        background-position: 13px 14px;
+    }
+
+    section.enquire-top-section .email:before {
+        background-position: 13px -70px;
+    }
+
+    section.enquire-top-section .my-contact>div div:first-child {
+        font-size: 18px !important;
+        padding-bottom: 10px;
+    }
+
+    section.enquire-top-section .email a,
+    section.enquire-top-section .my-contact .location div {
+        font-size: 16px;
+    }
+
+    section.enquire-top-section .my-contact,
+    section.form-section form.wpcf7-form {
+        padding-top: 25px;
+    }
+
+    section.form-section .form-inner-wrap {
+           flex-wrap: wrap;
+    }
+	section.form-section .form-inner-wrap .form-left {
+		order: 2;
+		padding-top: 10px;
+	}
+    section.form-section .map-iframe {
+        height: 325px !important;
+    }
+
+    /*-popup--*/
+
+    body .fancybox__carousel .fancybox__content {
+        height: 300px !important;
+    }
+
+    body .fancybox__nav .carousel__button.is-next {
+        right: 5.5%;
+        background-position: -79px 0;
+    }
+
+    body .fancybox__nav .carousel__button.is-prev {
+        left: 5.8%;
+    }
+
+    body .fancybox__nav .carousel__button {
+        width: 22px;
+        height: 56px;
+        background-size: 100px;
+    }
+
+    .carousel__button.is-next svg {
+        right: -2px;
+        left: auto;
+    }
+
+    .carousel__button.is-prev svg {
+        right: auto;
+        left: -2px;
+    }
+
+    .carousel__button svg {
+        width: 14px;
+    }
+
+    .fancybox__toolbar__items .fancybox__button--close,
+    .fancybox__toolbar__items .fancybox__button--close:focus {
+        width: 30px;
+        height: 30px;
+    }
+	.fancybox-wrap.fancybox-desktop.fancybox-type-image.fancybox-opened {
+		max-height: 330px;
+		width: 90%!important;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    header .site-logo {
+        padding: 0 0 0 !important;
+    }
+
+    .site-branding {
+        margin-top: 0 !important;
+    }
+
+    body .history-left .wpb_single_image .vc_single_image-wrapper,
+    body .charters-section .wpb_single_image .vc_single_image-wrapper,
+    body .events-section .wpb_single_image .vc_single_image-wrapper,
+    body .specification-right .wpb_single_image .vc_single_image-wrapper,
+    body .overnight-section .wpb_single_image .vc_single_image-wrapper,
+    body .tours-section .wpb_single_image .vc_single_image-wrapper,
+    section.tours-section .school-exc-left .wpb_single_image .vc_single_image-wrapper {
+        height: 350px;
+    }
+
+    li.instagram_url.follow-us {
+        text-align: center;
+    }
+
+    body footer#colophon .site-logo {
+        margin: 0 auto;
+    }
+
+    .my_social,
+    .site-name {
+        width: 100%;
+    }
+
+    .map,
+    .contact-detail {
+        width: 50%;
+        float: left;
+    }
+
+    body .site-footer>.site-info::after {
+        display: block;
+        clear: both;
+        content: '';
+    }
+
+    section.enquire-top-section .my-contact .location,
+    section.enquire-top-section .my-contact .phone {
+        margin: 0 10px 45px;
+    }
+
+    section.enquire-top-section .my-contact .location,
+    section.enquire-top-section .my-contact .email,
+    section.enquire-top-section .my-contact .phone {
+        width: 46%;
+    }
+
+    section.enquire-top-section .my-contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body .fancybox__nav .carousel__button.is-next {
+        right: 6.4%;
+    }
+
+    body .fancybox__nav .carousel__button.is-prev {
+        left: 6.4%;
+    }
+    .inner-banner-section figure div {
+		height: 300px;
+	}
+    body.page-id-16 .inner-banner-section .wpb_single_image .vc_single_image-wrapper img {
+		object-position: center -140px;
+	}
+	header .primary-navigation>div>.menu-wrapper {
+    margin-top: 58px !important;
+    }
+}
